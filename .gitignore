@@ -1,0 +1,8 @@
+# Ensures that everything will be ignored
+*
+# Whitelist files/folders with !, these won't be ignored
+!*.yaml
+!.gitignore
+!*.md
+# Ensure the following YAML files are ignored
+secrets.yaml
